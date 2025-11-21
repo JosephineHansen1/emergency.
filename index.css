@@ -1,0 +1,28 @@
+article[popover]::backdrop {
+  backdrop-filter: blur(4px);
+}
+
+[popover] {
+  max-height: 90vh;
+  max-width: 50ch;
+  width: 90vw;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#pop01 p {
+  margin-block: 1rem; /*giver luft over og under hvert p*/
+  line-height: 1.6; /*lidt mere læselinjerum*/
+}
+
+#pop02 p {
+  margin-block: 1rem; /*giver luft over og under hvert p*/
+  line-height: 1.6; /*lidt mere læselinjerum*/
+}
+
+/* **************** fjerbilledet tilpasses her ****************** */
+
+#main-disclamer-content img {
+  width: 60px;
+  height: 100%;
+}

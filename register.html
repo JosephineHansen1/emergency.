@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/burger.css" />
+    <link rel="stylesheet" href="css/cards.css" />
+    <link rel="stylesheet" href="css/form.css" />
+    <link rel="icon" type="image/png" href="img/fav.png" />
+    <title>Emergency Site</title>
+  </head>
+  <body id="register">
+    <header>
+      <nav>
+        <div id="logotype-wrapper" class="logo">
+          <a href="index.html"> LOGO-TYPE </a>
+        </div>
+        <ul class="menu">
+          <li><a class="menuItem" href="instruction.html">Nærkontakt</a></li>
+          <li><a class="menuItem" href="register.html">Indberet</a></li>
+        </ul>
+         <button id="toggle">
+          dark mode
+        </button>
+        <button class="burger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <h1>INDBERET SYGDOM</h1>
+
+
+      <section id="form-section">
+        <article id="form-info">
+          <h2>Fjerpest</h2>
+          <p>Indberet venligst alle felter</p>
+        </article>
+        <form id="webform">
+          
+          <!-- Navn -->
+          <label for="name">Navn:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Indtast dit navn"
+            required
+          />
+
+          <!-- Email -->
+          <label for="email">Email:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Indtast din email"
+            required
+          />
+
+          <!-- Antal symptomer -->
+          <label for="number">Hvor mange forskellige symptomer har du?</label>
+          <input
+            type="number"
+            id="number"
+            name="number"
+            min="1"
+            max="50"
+            placeholder="1-50"
+            required
+          />
+
+<form>
+  <h3>Hvilke symptomer har du?</h3>
+
+  <label for="spiderman">  
+    <input type="radio" id="spiderman">
+    Kløe og prikken i huden
+  </label>
+
+  <label for="superman">
+    <input type="radio" id="superman">
+    Vokseværk af fjer, især på arme og skuldre
+  </label>
+
+  <label for="batman">
+    <input type="radio" id="batman">
+    Lette hallucinationer om at kunne flyve
+  </label>
+
+  <button>Submit</button>
+
+
+
+</form>
+
+
+        <form id="webform"></form>
+      </section>
+      <section id="form-summary">
+        <h2></h2>
+        <article>
+          <p class="placeholder"></p>
+        </article>
+      </section>
+  
+    </main>
+    <footer>
+      <nav class="some">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="another">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+      <nav class="yetanother">
+        <ul>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+          <li><a href="">link</a></li>
+        </ul>
+      </nav>
+    </footer>
+   
+    <script src="js/burger.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/main.js"></script> -->
+  </body>
+</html>

@@ -1,0 +1,91 @@
+:root {
+  /* Colours */
+  --color-bg: light-dark (#f6ebb3, #3a2632); /* page background /*
+
+  /* Header */
+  --color-head-bg: #4f8ba7;
+
+  /* Logotype */
+  --color-logotype-bg: #181f70;
+  --color-text-logotype: #fffae2;
+  --font-logotype-size: 2rem;
+
+  /* Global menu */
+  --color-menu-bg: #181f70;
+
+  /* Links */
+  --color-link-bg: #ffffff;
+  --color-link-hover: #ffffff; /* used */
+  --color-link-active: #99958f; /* used */
+  --border-radius-links: 1px;
+
+  /* Headlines og rubrik */
+  --font-h1-size: 1rem;
+  --font-sub1-size: 1rem;
+  --font-h2-size: 1rem;
+  --font-h3-size: 1rem;
+  --color-headline-bg: #8e1111;
+  --color-headline-text-page: #ffffff;
+
+  /* Tekst */
+  --color-text: #000000;
+  --color-text-inverted: #fffae2;
+
+  /*  Marginer */
+  --margin-head-bottom: 5px;
+
+  /* Borders */
+  --border-radius: 20px;
+
+  /* Cards */
+  --color-card-bg: #80e3ff;
+  --color-cta-card-bg: #d5d2d0;
+  /* news-cards */
+  --color-news-bg: #fffae2;
+  --color-news-bg-inverted: #dbe2f5;
+  --color-cta-newscard-bg: #;
+  --color-cta-newscard-bg-inverted: #6f90eb;
+
+  /* Fonts */
+  --font-family-sans: "Rubik" ui-sans-serif;
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Text sizes */
+  --logotype-size: 1rem;
+  --headline1-size: 2rem;
+  --headline2-size: 1rem;
+  --headline3-size: 1rem;
+  --bodytext-size: 1rem;
+  --cta-text-size: 1rem;
+  --followup-text-size: 1rem;
+  --form-submit-size: 1rem;
+
+  /* Infographics */
+  --color-info-bg: #676167;
+  --color-infobox-1-bg: #cfcec6;
+  --color-infobox-2-bg: #969995;
+}
+
+/* ...existing code... */
+.info-graphic svg [role="button"] {
+  cursor: pointer;
+  outline: none;
+}
+
+.info-graphic svg [role="button"]:focus {
+  outline: 3px solid #ffb6c1; /* synlig fokus */
+  outline-offset: 3px;
+}
+
+.info-graphic svg .active {
+  stroke: #000;
+  stroke-width: 3;
+  filter: drop-shadow(0 0 6px rgba(255, 0, 0, 0.4));
+}
+body {
+  background-color: var(--color-bg);
+}
+/* **********************JEG HAR INDSAT NENDENFOR************************************* */
